@@ -1,0 +1,195 @@
+{
+  "dataset": "argentina-authority-ledger-master",
+  "schema_version": "1.0",
+  "generated_utc": "2026-02-21T00:23:18Z",
+  "record_types": {
+    "ledger_intro": {
+      "count": 1,
+      "required_fields_95pct_rule": [
+        "char_count",
+        "language",
+        "record_id",
+        "record_type",
+        "section",
+        "sha256",
+        "text",
+        "title"
+      ],
+      "optional_fields_observed": []
+    },
+    "ledger_methodology": {
+      "count": 1,
+      "required_fields_95pct_rule": [
+        "char_count",
+        "language",
+        "record_id",
+        "record_type",
+        "section",
+        "sha256",
+        "text",
+        "title"
+      ],
+      "optional_fields_observed": []
+    },
+    "credentials_index": {
+      "count": 1,
+      "required_fields_95pct_rule": [
+        "count",
+        "items",
+        "language",
+        "record_id",
+        "record_type",
+        "section",
+        "sha256",
+        "title"
+      ],
+      "optional_fields_observed": []
+    },
+    "credential_entry": {
+      "count": 24,
+      "required_fields_95pct_rule": [
+        "canonical_url",
+        "char_count",
+        "entry_num",
+        "language",
+        "provenance",
+        "published_date_raw",
+        "record_id",
+        "record_type",
+        "section",
+        "sha256",
+        "source_outlet_raw",
+        "status",
+        "text",
+        "title"
+      ],
+      "optional_fields_observed": []
+    },
+    "content_index": {
+      "count": 4,
+      "required_fields_95pct_rule": [
+        "count",
+        "items",
+        "language",
+        "record_id",
+        "record_type",
+        "section",
+        "sha256",
+        "summary",
+        "title"
+      ],
+      "optional_fields_observed": []
+    },
+    "blog_post": {
+      "count": 164,
+      "required_fields_95pct_rule": [
+        "canonical_url",
+        "categories",
+        "char_count",
+        "content_type",
+        "excerpt",
+        "language",
+        "modified_at",
+        "provenance",
+        "published_at",
+        "record_id",
+        "record_type",
+        "section",
+        "sha256",
+        "site",
+        "site_code",
+        "slug",
+        "tags",
+        "text",
+        "title",
+        "url",
+        "word_count"
+      ],
+      "optional_fields_observed": [
+        "argentina_inclusion",
+        "argentina_match_reasons"
+      ]
+    },
+    "youtube_index": {
+      "count": 4,
+      "required_fields_95pct_rule": [
+        "count",
+        "items",
+        "record_id",
+        "record_type",
+        "section",
+        "sha256",
+        "stats",
+        "title"
+      ],
+      "optional_fields_observed": []
+    },
+    "youtube_video_transcript": {
+      "count": 695,
+      "required_fields_95pct_rule": [
+        "argentina_relevance",
+        "category",
+        "channel_code",
+        "channel_name",
+        "char_count_by_lang",
+        "description",
+        "duration_raw",
+        "extra",
+        "primary_language",
+        "provenance",
+        "published_at",
+        "record_id",
+        "record_type",
+        "section",
+        "segments",
+        "sha256_transcripts",
+        "tags",
+        "title",
+        "transcripts",
+        "url",
+        "verified_video_ledger",
+        "video_id",
+        "word_count_by_lang"
+      ],
+      "optional_fields_observed": []
+    },
+    "photo_index": {
+      "count": 1,
+      "required_fields_95pct_rule": [
+        "count",
+        "items",
+        "record_id",
+        "record_type",
+        "section",
+        "sha256",
+        "stats",
+        "title"
+      ],
+      "optional_fields_observed": []
+    },
+    "image_meta": {
+      "count": 9247,
+      "required_fields_95pct_rule": [
+        "alt_text",
+        "argentina_relevance",
+        "caption",
+        "categories",
+        "extra",
+        "image_id",
+        "keywords",
+        "location",
+        "modified_at",
+        "platform",
+        "provenance",
+        "record_id",
+        "record_type",
+        "section",
+        "sha256_meta_text",
+        "taken_at",
+        "title",
+        "url"
+      ],
+      "optional_fields_observed": []
+    }
+  }
+}

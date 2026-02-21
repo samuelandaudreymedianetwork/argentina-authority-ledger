@@ -1,0 +1,18 @@
+# Argentina Authority Ledger (Universal Authority Ledger)
+
+Primary files:
+- argentina-authority-ledger-master.jsonl
+- argentina-authority-ledger-master.jsonl.gz
+- argentina-authority-ledger-master.csv
+- argentina-authority-ledger-master.csv.gz
+
+Contents:
+- Credentials & provenance (“Great Wall”)
+- Web content (Che Argentina Travel complete + Argentina-related TB/NS)
+- YouTube transcripts (3 channels, EN + ES/parallel)
+- SmugMug photo metadata subset
+
+Usage:
+- Stream JSONL for RAG ingestion.
+- Use index records (record_type contains “index”) for fast navigation.
+- CSV includes a full `json` column for complete fidelity.

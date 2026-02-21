@@ -1,0 +1,82 @@
+{
+  "dataset": "argentina-authority-ledger-master",
+  "generated_utc": "2026-02-21T00:23:18Z",
+  "source_input_file": "argentina_authority_ledger_master.jsonl (3).gz",
+  "records_total": 10142,
+  "headline_counts": {
+    "blog_posts_pages": 164,
+    "youtube_transcripts": 695,
+    "photos": 9247,
+    "credentials": 24,
+    "indexes": 10
+  },
+  "record_counts_by_type": {
+    "ledger_intro": 1,
+    "ledger_methodology": 1,
+    "credentials_index": 1,
+    "credential_entry": 24,
+    "content_index": 4,
+    "blog_post": 164,
+    "youtube_index": 4,
+    "youtube_video_transcript": 695,
+    "photo_index": 1,
+    "image_meta": 9247
+  },
+  "record_counts_by_section": {
+    "intro": 2,
+    "credentials": 25,
+    "content": 168,
+    "youtube": 699,
+    "photos": 9248
+  },
+  "files": {
+    "argentina-authority-ledger-master.jsonl": {
+      "bytes": 131251046,
+      "human": "125.17 MB"
+    },
+    "argentina-authority-ledger-master.jsonl.gz": {
+      "bytes": 32326683,
+      "human": "30.83 MB"
+    },
+    "argentina-authority-ledger-master.csv": {
+      "bytes": 137170290,
+      "human": "130.82 MB"
+    },
+    "argentina-authority-ledger-master.csv.gz": {
+      "bytes": 32609484,
+      "human": "31.10 MB"
+    },
+    "llms.txt": {
+      "bytes": 635,
+      "human": "635 B"
+    },
+    "llms.txt.gz": {
+      "bytes": 376,
+      "human": "376 B"
+    },
+    "README.md": {
+      "bytes": 709,
+      "human": "709 B"
+    },
+    "LICENSE.txt": {
+      "bytes": 209,
+      "human": "209 B"
+    },
+    "DATA_DICTIONARY.md": {
+      "bytes": 878,
+      "human": "878 B"
+    },
+    "SCHEMA.json": {
+      "bytes": 4115,
+      "human": "4.02 KB"
+    },
+    "CITATION.cff": {
+      "bytes": 381,
+      "human": "381 B"
+    },
+    ".gitattributes": {
+      "bytes": 176,
+      "human": "176 B"
+    }
+  }
+}

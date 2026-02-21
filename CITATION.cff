@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it."
+title: "Argentina Authority Ledger (credentials + web + video + photo metadata)"
+type: dataset
+authors:
+  - family-names: "Jeffery"
+    given-names: "Samuel"
+  - family-names: "Bergner"
+    given-names: "Audrey"
+contact:
+  - email: "nomadicsamuel@gmail.com"
+license: "CC-BY-NC-4.0"
+date-released: "2026-02-21"
