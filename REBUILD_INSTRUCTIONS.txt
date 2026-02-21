@@ -1,0 +1,13 @@
+Rebuild the original .gz files from the two parts (GitHub <25MB uploads)
+
+macOS / Linux:
+  cat <file>.part01 <file>.part02 > <file>
+  gunzip -c <file> > <file-without-.gz>
+
+Windows (PowerShell):
+  cmd /c copy /b <file>.part01+<file>.part02 <file>
+
+Files in this folder:
+- argentina-authority-ledger-master.jsonl.gz.part01 + part02
+- argentina-authority-ledger-master.csv.gz.part01 + part02
+- llms-argentina-authority-ledger.txt.gz.part01 + part02
