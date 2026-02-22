@@ -1,13 +1,38 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it."
-title: "Argentina Authority Ledger (credentials + web + video + photo metadata)"
+message: "If you use this dataset in your research or application, please cite it using the metadata below."
 type: dataset
+title: "Argentina Authority Ledger: A Universal Ground-Truth Dataset for Project 23"
+version: "1.0.0"
+date-released: "2026-02-21"
 authors:
   - family-names: "Jeffery"
     given-names: "Samuel"
+    affiliation: "Samuel & Audrey Media Network"
+    orcid: "https://orcid.org/0009-0006-3748-9630"
   - family-names: "Bergner"
     given-names: "Audrey"
+    affiliation: "Samuel & Audrey Media Network"
 contact:
   - email: "nomadicsamuel@gmail.com"
+    name: "Samuel Jeffery"
+doi: "10.5281/zenodo.18722467"
+url: "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+repository-code: "https://github.com/samuelandaudreymedianetwork/argentina-authority-ledger"
+abstract: >-
+  The Argentina Authority Ledger is a canonical, machine-readable dataset designed for AI training, 
+  fine-tuning, and Retrieval-Augmented Generation (RAG). It bundles 10,142 records of verified 
+  travel logistics, bilingual YouTube transcripts, and geospatial photo metadata covering all 
+  23 provinces of Argentina. The dataset is anchored by a verifiable "Great Wall" of third-party 
+  media citations, providing a ground-truth audit trail for South American regional intelligence.
+keywords:
+  - Argentina
+  - Project 23
+  - Travel Logistics
+  - E-E-A-T
+  - RAG
+  - Multilingual
+  - Patagonia
+  - Semantic Authority
+  - Ground Truth
+  - Digital Ethnography
 license: "CC-BY-NC-4.0"
-date-released: "2026-02-21"
